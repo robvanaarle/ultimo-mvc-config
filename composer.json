@@ -1,0 +1,36 @@
+{
+    "name": "robvanaarle/ultimo-config-mvc",
+    "description": "Module file configurations for Ultimo MVC.",
+    "type": "library",
+    "keywords": [
+        "config",
+        "UltimoMVC",
+        "Module"
+    ],
+    "license": "BSD-3-Clause",
+    "authors": [
+	  		{
+	    	  "name": "Rob van Aarle"
+	  		}
+	  ],
+    "repositories": [
+      	{
+        	"type": "vcs",
+        	"url": "https://github.com/robvanaarle/ultimo-config"
+      	},
+      	{
+        	"type": "vcs",
+        	"url": "https://github.com/robvanaarle/ultimo-mvc"
+      	}
+    ],
+    "require": {
+    		"robvanaarle/ultimo-config": "dev-master",
+        "robvanaarle/ultimo-mvc": "dev-master"
+    },
+    "autoload": {
+    		"psr-4": {
+       			"ultimo\\": "src/ultimo/"
+    		}
+  }
+}
+
