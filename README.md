@@ -1,13 +1,13 @@
-# Ultimo Config MVC
+# Ultimo MVC Config
 Module file configurations for Ultimo MVC.
 
-Includes a Ultimo Phptpl helper to access configurations from the View. The configuration values belonging to the section with the name equal to the application environment are returned. Both module configurations as view configurations inherit of the configurations of parent modules. For views also the configuration of the parent views are inherited. 
+Includes a Ultimo MVC Phptpl helper to access configurations from the View. The configuration values belonging to the section with the name equal to the application environment are returned. Both module configurations as view configurations inherit of the configurations of parent modules. For views also the configuration of the parent views are inherited. 
 
 ## Requirements
 
 * PHP 5.3
 * Ultimo MVC
-* Ultimo Phptpl (optional)
+* Ultimo MVC Phptpl (optional)
 
 ## Usage
 ### Register plugin
